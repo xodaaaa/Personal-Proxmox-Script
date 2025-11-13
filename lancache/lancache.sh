@@ -2,7 +2,7 @@
 
 # Instalar dependencias
 sudo apt update
-sudo apt install -y apt-transport-https ca-certificates software-properties-common docker-compose docker.io
+sudo apt install -y apt-transport-https ca-certificates docker-compose docker.io git
 
 # Clonar el repositorio si no existe
 if [ ! -d "lancache" ]; then
